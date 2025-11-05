@@ -1,0 +1,10 @@
+/ (main repository)
+│
+├── index.html
+└── /images/
+     ├── logo.png
+     ├── law-office.jpg
+     ├── property-law.jpg
+     ├── family-law.jpg
+     ├── corporate-law.jpg
+     └── consumer-law.jpg
