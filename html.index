@@ -1,0 +1,13 @@
+sureshchand/
+│
+├── index.html        → Home Page
+├── about.html        → About Us
+├── services.html     → Services
+├── posts.html        → Posts / Articles
+├── contact.html      → Contact Form
+├── style.css         → Common CSS for all pages
+└── images/           → Folder for images
+     ├── logo.png
+     ├── lawyer1.png
+     ├── lawyer2.png
+     └── ... (और कोई image)
