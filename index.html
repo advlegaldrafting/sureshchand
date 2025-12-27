@@ -6,7 +6,7 @@
 <!-- Mobile Responsive -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Google Site Verification -->
+<!-- Google Site Verification (DO NOT DELETE) -->
 <meta name="google-site-verification" content="cwiqSQaIeCLsVaYqHfuuG7O4v-JjJGIrhVffqdGhU5s" />
 
 <title>About Advocate Suresh Chand | Legal Consultancy & Drafting Services in Ghaziabad</title>
@@ -23,18 +23,60 @@ body {
   background:#f4f4f9;
   color:#333;
 }
+
 nav {
   background:#1976d2;
   padding:14px 0;
   text-align:center;
+  position: relative;
 }
+
 nav a {
   color:#fff;
   margin:0 15px;
   text-decoration:none;
   font-weight:bold;
 }
-nav a:hover { text-decoration:underline; }
+
+nav a:hover {
+  text-decoration:underline;
+}
+
+/* ===== Services Dropdown Menu ===== */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: #ffffff;
+  min-width: 330px;
+  text-align: left;
+  top: 35px;
+  left: 0;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  border-radius: 6px;
+  z-index: 9999;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.dropdown-menu a:hover {
+  background: #f2f2f2;
+  color: #1976d2;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
 .container {
   width:90%;
@@ -53,8 +95,15 @@ header {
   text-align:center;
   border-radius:15px;
 }
-header h1 { font-size:36px; }
-header h2 { font-size:20px; margin-top:15px; }
+
+header h1 {
+  font-size:36px;
+}
+
+header h2 {
+  font-size:20px;
+  margin-top:15px;
+}
 
 h2 {
   color:#c2185b;
@@ -62,7 +111,10 @@ h2 {
   border-bottom:2px solid #1976d2;
   padding-bottom:5px;
 }
-ul { margin-left:25px; }
+
+ul {
+  margin-left:25px;
+}
 
 .btn {
   display:inline-block;
@@ -89,7 +141,11 @@ footer {
   background:#222;
   color:#fff;
 }
-footer a { color:#25D366; text-decoration:none; }
+
+footer a {
+  color:#25D366;
+  text-decoration:none;
+}
 </style>
 </head>
 
@@ -98,8 +154,22 @@ footer a { color:#25D366; text-decoration:none; }
 <!-- NAVIGATION -->
 <nav>
   <a href="index.html">Home</a> |
+
   <a href="about-us.html">About Us</a> |
-  <a href="#services">Services</a> |
+
+  <span class="dropdown">
+    <a href="#services">Services ▾</a>
+    <div class="dropdown-menu">
+      <a href="real-estate-dispute.html">Real Estate Dispute & Legal Consultancy</a>
+      <a href="legal-drafting-registration.html">Legal Drafting & Registration</a>
+      <a href="matrimonial-marriage.html">Matrimonial & Marriage Registration</a>
+      <a href="family-dispute.html">Family Dispute</a>
+      <a href="accidental-dispute.html">Accidental Dispute</a>
+      <a href="bank-financial.html">Bank & Financial</a>
+      <a href="rera.html">RERA</a>
+    </div>
+  </span> |
+
   <a href="#contact">Contact</a>
 </nav>
 
@@ -112,110 +182,33 @@ footer a { color:#25D366; text-decoration:none; }
 
 <section>
   <h2>Why Marriage Registration Is Mandatory</h2>
-
   <p>
     Marriage registration is not merely a procedural formality; it is a
     <strong>legally valid written proof of marriage (Marriage Certificate)</strong>.
-    In modern legal and administrative systems, this certificate plays a vital role
-    in establishing the marital relationship between husband and wife.
   </p>
+</section>
 
-  <p>
-    A marriage certificate is required for various official and legal purposes such as
-    <strong>passport and visa applications, banking and insurance matters, government schemes,
-    proof of spousal relationship, court cases, property rights</strong> and other legal proceedings.
-  </p>
-
-  <p>
-    Earlier in India, marriages—especially under
-    <strong>Hindu marriage customs</strong>—were solemnized through religious ceremonies.
-    However, there was no formal government record to officially establish that
-    a particular man is the lawful husband of a woman or that a woman is the legally
-    wedded wife of a man.
-  </p>
-
-  <p>
-    To address this gap, the
-    <strong>Hindu Marriage Registration Act</strong> was introduced, which made it possible
-    to officially register Hindu marriages and create a valid government record of marriage.
-  </p>
-
-  <p>
-    Over time, the legal and social requirements relating to marriage expanded significantly.
-    Consequently, legislation was enacted to provide for
-    <strong>marriage registration across all religions and communities</strong>,
-    ensuring uniform legal recognition of marriages.
-  </p>
-
-  <p>
-    At present, <strong>marriage registration and issuance of a marriage certificate
-    have been made compulsory for all religions</strong>.
-    This ensures legal certainty, prevents disputes regarding marital status,
-    and safeguards the rights and interests of both spouses.
-  </p>
-
-  <p>
-    Therefore, marriage registration serves not only as legal protection
-    but also as a crucial document that affirms the validity and legality
-    of a marital relationship.
-  </p>
-</section>  
-<!-- ABOUT US -->
 <section id="about-us">
   <h2>About Advocate Suresh Chand</h2>
   <p>
     Advocate Suresh Chand is a trusted legal professional offering
     <strong>Marriage Registration, Court Marriage, Legal Drafting and Legal Consultancy</strong>
     services in Ghaziabad, Noida and Greater Noida.
-    We focus on fast, transparent and legally compliant solutions with complete client satisfaction.
   </p>
 </section>
 
-<!-- SERVICES -->
 <section id="services">
   <h2>Our Legal Services</h2>
   <ul>
     <li>Marriage Registration & Marriage Certificate</li>
-    <li>Court Marriage (Same Day Assistance)</li>
+    <li>Court Marriage</li>
     <li>Legal Drafting & Documentation</li>
     <li>Affidavit & Agreement Services</li>
-    <li>Legal Consultation in Ghaziabad & Noida</li>
+    <li>Legal Consultation</li>
   </ul>
   <a href="tel:9958814407" class="btn">Call Now: 99588 14407</a>
 </section>
 
-<!-- MAIN CONTENT -->
-<section>
-  <h2>Marriage Registration Service Areas</h2>
-  <ul>
-    <li>Indirapuram, Vaishali, Kaushambi</li>
-    <li>Raj Nagar Extension & Crossing Republik</li>
-    <li>Noida & Greater Noida</li>
-  </ul>
-</section>
-
-<section>
-  <h2>Required Documents</h2>
-  <ul>
-    <li>ID Proof of Bride & Groom</li>
-    <li>Address Proof</li>
-    <li>Passport Size Photographs</li>
-    <li>Marriage Application Form</li>
-  </ul>
-</section>
-
-<section>
-  <h2>Marriage Registration Process</h2>
-  <ul>
-    <li>Form Filling</li>
-    <li>Document Verification</li>
-    <li>Appointment Booking</li>
-    <li>Appearance with Witnesses</li>
-    <li>Marriage Certificate Issued</li>
-  </ul>
-</section>
-
-<!-- CONTACT -->
 <section id="contact">
   <h2>Contact Advocate Suresh Chand</h2>
   <div class="location">
