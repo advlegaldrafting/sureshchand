@@ -7,14 +7,6 @@
     <meta name="description" content="Looking for trusted marriage registration services in Ghaziabad? Advocate Suresh Chand offers legally compliance marriage certificate services in Indirapuram, Vasundhara & Ghaziabad since 2007.">
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.7; color: #333; margin: 0; padding: 0; background-color: #f9f9f9; }
-        
-        /* Fixed Navigation Bar Styling to point to your exact home directory */
-        .nav-bar { background-color: #1a365d; padding: 12px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
-        .nav-container { max-width: 850px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
-        .nav-logo { color: #fff; font-weight: bold; font-size: 16px; text-decoration: none; }
-        .nav-link { color: #fff; text-decoration: none; font-weight: bold; background-color: #2b6cb0; padding: 6px 15px; border-radius: 4px; font-size: 14px; transition: background 0.2s; }
-        .nav-link:hover { background-color: #2c5282; }
-
         .container { max-width: 850px; margin: 20px auto; padding: 30px; background: #fff; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.05); }
         h1 { color: #1a365d; border-bottom: 3px solid #1a365d; padding-bottom: 12px; font-size: 30px; line-height: 1.3; }
         h2 { color: #2c5282; margin-top: 30px; font-size: 24px; border-left: 4px solid #2c5282; padding-left: 10px; }
@@ -26,29 +18,13 @@
         .contact-section { background-color: #f7fafc; border: 1px solid #e2e8f0; padding: 25px; border-radius: 8px; margin-top: 40px; }
         .btn-call { display: inline-block; background-color: #2b6cb0; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-right: 15px; margin-bottom: 10px; }
         .btn-whatsapp { display: inline-block; background-color: #25d366; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-bottom: 10px; }
+        .blog-image { width: 100%; max-height: 450px; object-fit: cover; border-radius: 6px; margin-bottom: 25px; }
         .office-address { margin-top: 15px; font-size: 15px; background: #fff; padding: 15px; border-left: 4px solid #1a365d; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
         .area-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-        
-        /* Appointment Form Styling */
-        .appointment-form { background: #fff; border: 1px solid #cbd5e0; padding: 25px; border-radius: 8px; margin-top: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        .form-group { margin-bottom: 15px; }
-        .form-group label { display: block; margin-bottom: 5px; font-weight: bold; color: #2d3748; }
-        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 10px; border: 1px solid #cbd5e0; border-radius: 4px; box-sizing: border-box; font-size: 15px; }
-        .btn-submit { background-color: #e53e3e; color: white; border: none; padding: 12px 20px; font-size: 16px; font-weight: bold; border-radius: 4px; cursor: pointer; width: 100%; transition: background 0.2s; }
-        .btn-submit:hover { background-color: #c53030; }
-
         @media (max-width: 600px) { .area-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
-
-<!-- 🌐 CORRECTED NAVIGATION BAR TO LINK DIRECTLY TO YOUR HOME DIRECTORY -->
-<nav class="nav-bar">
-    <div class="nav-container">
-        <a href="https://github.io" class="nav-logo">Suresh Chand</a>
-        <a href="https://github.io" class="nav-link">⬅ Back to Home Site</a>
-    </div>
-</nav>
 
 <div class="container">
     <!-- Main Heading (H1) -->
@@ -57,37 +33,6 @@
     <p>A marriage certificate is no longer just an optional piece of paper; it has evolved into a mandatory legal document required for numerous administrative and legal compliances in India. Whether you are planning to apply for a spouse visa, update your passport details, open a joint bank account, buy a property together, or claim insurance benefits, a legally valid marriage certificate is the first document authorities will ask for. If you reside in Delhi-NCR, navigating through the government documentation can look overwhelming. This is where seeking professional <strong>marriage registration services</strong> becomes crucial to save your valuable time and avoid procedural delays.</p>
     
     <p>For couples living in Indirapuram, Vasundhara, Vaishali, or anywhere across Delhi-NCR, finding a reliable legal expert ensures a seamless transition from solemnization to registration. Choosing the right legal advisor who specializes in <strong>marriage registration services ghaziabad</strong> guarantees that all your paperwork complies perfectly with the latest rules set by the Uttar Pradesh government.</p>
-
-    <!-- Appointment Booking Form Section -->
-    <div class="appointment-form">
-        <h2 style="margin-top:0; border:none; padding:0; color:#1a365d;">📅 Book an Appointment for Marriage Registration</h2>
-        <p style="font-size:14px; margin-bottom:20px;">Fill out this quick form to reserve your legal consultation slot directly with Advocate Suresh Chand. Submitting this form will securely open WhatsApp to send your details instantly.</p>
-        
-        <form id="whatsappForm" onsubmit="sendToWhatsapp(event)">
-            <div class="form-group">
-                <label for="clientName">Full Name *</label>
-                <input type="text" id="clientName" placeholder="Enter your full name" required>
-            </div>
-            <div class="form-group">
-                <label for="serviceType">Required Service *</label>
-                <select id="serviceType" required>
-                    <option value="Marriage Registration Certificate">Marriage Registration & Certificate</option>
-                    <option value="Court Marriage Consultation">Court Marriage Consultation</option>
-                    <option value="Arya Samaj Marriage Registration">Arya Samaj Marriage Registration</option>
-                    <option value="Property Transfer / Legal Drafting">Property Transfer / Legal Drafting</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="appointmentDate">Preferred Appointment Date *</label>
-                <input type="date" id="appointmentDate" required>
-            </div>
-            <div class="form-group">
-                <label for="clientMessage">Brief Message / Special Request (Optional)</label>
-                <textarea id="clientMessage" rows="3" placeholder="Any specific questions or area details (e.g., Indirapuram, Vasundhara)"></textarea>
-            </div>
-            <button type="submit" class="btn-submit">Confirm Appointment via WhatsApp</button>
-        </form>
-    </div>
 
     <div class="highlight-box">
         <strong>Legacy of Trust Since 2007:</strong> I am <strong>Advocate Suresh Chand</strong>, and our legal firm has been actively providing premium legal services in Delhi-NCR since 2007. With over 19 years of extensive experience in handling complex family matters, court marriages, and document drafting, we take proud in helping thousands of couples secure their official marriage certificates without any stress or middleman complications.
@@ -106,3 +51,36 @@
     </ul>
 
     <h2>Comprehensive Documents Checklist for Ghaziabad Registration</h2>
+    <p>To ensure that your application is approved smoothly in the first attempt at the sub-registrar office, you must keep the following authentic documents ready:</p>
+    <ol>
+        <li><strong>Proof of Identity:</strong> Self-attested copies of Aadhar Card, PAN Card, or Voter ID Card for both husband and wife.</li>
+        <li><strong>Proof of Age (Crucial Requirement):</strong> 10th Class School Leaving Certificate, Birth Certificate, or valid Passport. Please note that the legal minimum age is 21 years for the groom and 18 years for the bride.</li>
+        <li><strong>Proof of Residence:</strong> Government utility bills (Electricity or Water bill), Passport, or a legally registered Rent Agreement proving residency within the jurisdiction of Ghaziabad.</li>
+        <li><strong>Marriage Proof:</strong> A copy of the traditional Wedding Invitation Card (if available) and 5-6 high-quality photographs taken during the wedding ceremony showcasing the rituals clearly.</li>
+        <li><strong>Witness Details:</strong> Two reliable witnesses holding valid NCR identity and address proofs (Aadhar Card and PAN Card are mandatory for witnesses). They must accompany the couple on the day of the appointment.</li>
+    </ol>
+
+    <h2>Step-by-Step Procedure in Ghaziabad Sub-Registrar Office</h2>
+    <p>Our premium <strong>marriage registration services in ghaziabad</strong> break down the complex government procedure into a simplified, stress-free 3-step experience for you:</p>
+    
+    <h3>Step 1: Document Verification & Online Application</h3>
+    <p>We systematically verify all your digital drafts and upload the application form on the official IGRSUP portal of the Uttar Pradesh government. All necessary affidavits, marriage details, and proofs are attached without any technical errors.</p>
+    
+    <h3>Step 2: Slot Appointment Booking</h3>
+    <p>Once the application is uploaded, we book an official online appointment slot according to your availability. This slot decides the precise date and time when the couple and witnesses need to visit the registrar office for physical verification.</p>
+    
+    <h3>Step 3: Final Physical Verification and Issuance</h3>
+    <p>On the day of the appointment, you will visit the sub-registrar office. Since my permanent chamber is located right inside the Tehsil Compound, you do not have to wander around looking for directions. We manage the entire verification, biometric submission, and registry coordination smoothly, leading to the secure issuance of your digital marriage certificate.</p>
+
+    <h2>Serving Every Corner of Ghaziabad and Delhi-NCR</h2>
+    <p>Whether you reside locally in the heart of Ghaziabad or are living outside the city and searching for a remote trusted legal consultant, our services are easily accessible. We cater to clients located across all major sectors and colonies:</p>
+    
+    <div class="area-grid">
+        <ul>
+            <li><strong>Indirapuram:</strong> Shipra Suncity, Vaibhav Khand, Ahinsa Khand, Niti Khand, Shakti Khand.</li>
+            <li><strong>Vasundhara & Vaishali:</strong> All sectors, near metro stations, and surrounding high-rises.</li>
+            <li><strong>Crossing Republik:</strong> All major townships and residential societies.</li>
+        </ul>
+        <ul>
+            <li><strong>New Ghaziabad:</strong> Raj Nagar, Raj Nagar Extension, Wave City, LandCraft.</li>
+            <li><strong>Noida & Greater Noida:</strong> Sector 62, 63, Noida Extension, and Noida Techzone areas.</li>
